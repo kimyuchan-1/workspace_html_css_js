@@ -1,52 +1,132 @@
-
 * {
     padding: 0px;
     margin: 0px;
 }
+
 body {
-    background-color: white;
-}
-header, main, footer {
-    width: 80%;
-    margin-left: 10%;
-    padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
+
+header,
+main,
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #E6EAFF;
+}
+
+div > span {
+    margin: 20px;
+    padding: 10px;
+
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-block;
+}
+
+p > span {
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+a {
+    display: inline-block;
+    width: 100px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+
+    text-align: center;
+    text-decoration: none;
+
+    background-color: blue;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
 article {
-    width: 80%;
     padding: 20px;
 }
+
+article>p {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 section {
-    width: 30%;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
 }
-/* 선택자(selector) */
-/* 태그 선택자 */
-/* h2 {
-    color : blue;
+
+section>div {
+    display: flex;
+    margin: 10px;
+    align-items: center;
 }
-p {
-    color : dimgray;
+
+div>p {
+    margin-left: 5px;
 }
-/* 클래스 선택자 */
-/* .s1 {
-    background-color: aliceblue;
+
+h2 {
+    margin: 5px;
 }
-.s2 {
-    background-color: rgb(245, 245, 245);
-} */
-/* 아이디 선택자 */
-/* #a1 {
-    background-color: lightgray;
-} */
- /* 자식 선택자 */
-/* article > p {
-    color : rgb(46, 46, 46);
+
+img {
+    border-radius: 100px;
+    margin: 10px;
+    font-size: 20px;
 }
+
 footer {
     background-color: black;
-} */
-/* 후손 선택자 */
-/* footer li {
-    color : white ;
-} */
+}
+
+footer ul {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer li {
+    text-align: left;
+    color: white;
+}
+
+@media (max-width:1024px) {
+
+    header,
+    main,
+    footer {
+        width: 80%;
+        padding: 20px;
+
+        background-color: #E6EAFF;
+    }
+
+    footer {
+        background-color: black;
+    }
+}

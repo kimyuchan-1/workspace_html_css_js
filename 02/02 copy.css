@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+header,
+main,
+footer {
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    width: 80%;
+    padding: 20px;
+}
+
+section.s1 {
+    width: 500px;
+    border: 5px solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+section.s2 {
+    width: 500px;
+    border: 5px solid;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: black;
+}
+
+footer li {
+    color: white;
+}
+
+a {
+    display: inline-block;
+    width: 100px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    background-color: blue;
+}
+
+a:hover {
+    background-color: brown;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; 생략됨 */
+    justify-content: center;
+    align-items: center;
+    /* flex direction의 방향에 따라 justify-content와 align-items의 정렬 방향이 변함 */
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 150px;
+
+    border: 5px solid;
+}
+
+/* li {
+    display: inline;
+} */
+span {
+    font-weight: bold;
+    display: inline-block;
+}
+
+article>p {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+li i {
+    font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+
+    header,
+    main,
+    footer {
+        width: 100vw;
+        margin-left:0px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: aquamarine;
+    }
+}
+
+/* 선택자(selector) */
+/* 태그 선택자 */
+/* h2 {
+    color : blue;
+}
+p {
+    color : dimgray;
+} */
+/* 클래스 선택자 */
+/* .s1 {
+    background-color: aliceblue;
+}
+.s2 {
+    background-color: rgb(245, 245, 245);
+} */
+/* 아이디 선택자 */
+/* #a1 {
+    background-color: lightgray;
+} */
+/* 자식 선택자 */
+/* article > p {
+    color : rgb(46, 46, 46);
+}
+footer {
+    background-color: black;
+} */
+/* 후손 선택자 */
+/* footer li {
+    color : white ;
+}  */
