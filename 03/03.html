@@ -6,36 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K-digital 2025 3기</title>
     <!-- 외부 스타일 -->
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../js.css">
     <!-- Awesome 아이콘 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 내부 자바스크립트 -->
+    <!-- <script>
+        // alert("안녕하세요");
+        function hello() {
+            alert("안녕하세요");
+        }
+    </script> -->
+    <!-- 외부 자바스크립트 -->
+    <script src="./03.js"></script>
 </head>
 
 <body>
     <header>
         <div><span>AI 빅데이터분석 풀스택 서비스 SW 개발자 양성과정</span></div>
-        <h1>HTML/CSS/JS</h1>
+        <h1>자바스크립트 기초</h1>
     </header>
     <main>
         <section>
-            <ul>
-                <li><img src="./img/html.png" /><a href="./01/01.html" class="i1">HTML 기초</a></li>
-                <li><img src="./img/css.png" /><a href="./02/02.html" class="i1">CSS 기초</a></li>
-                <li><img src="./img/js.png" /><a href="./03/03.html" class="i1">JavaScript 기초</a></li>
-            </ul>
+            <div class = "btDiv">
+                <button onclick="hello('1')">인사1</button>
+                <button onclick="hello('2')">인사2</button>
+                <button onclick="checkvar()">var변수</button>
+            </div>
         </section>
     </main>
     <footer>
-        <h2>Refs</h2>
         <section>
-        <ul>
-            <li><a href="https://www.w3schools.com/" target="_blank" class="i2">01. w3school
-                    https://www.w3schools.com/</a></li>
-            <li><a href="https://developer.mozilla.org/ko/" target="_blank" class="i2">02. MDN 참고
-                    https://developer.mozilla.org/ko/</a></li>
-        </ul>
+            <ul>
+                <li><a href="../index.html"><i class="fa-regular fa-house"></i></a></li>
+            </ul>
         </section>
     </footer>
 </body>

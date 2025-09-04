@@ -74,7 +74,7 @@ article>p {
 
 section {
     background-color: white;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     border-radius: 8px;
 }
@@ -129,4 +129,18 @@ footer li {
     footer {
         background-color: black;
     }
+}
+
+.i1 {
+    display: inline-block;
+    width: 150px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+
+    text-align: center;
+    text-decoration: none;
+
+    background-color: blue;
+    color: white;
 }

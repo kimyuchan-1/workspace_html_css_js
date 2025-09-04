@@ -1,0 +1,53 @@
+main > section {
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li {
+    width: 20px;
+    padding: 5px;
+    margin: 7px 30px;
+
+    color: white;
+    background-color: skyblue;
+    border-radius: 8px;
+
+    display: inline-block;
+
+    text-decoration: none;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+}
+
+button {
+    padding: 10px;
+    margin: 5px 15px;
+
+    background-color: blue;
+    color: white;
+
+    border-radius: 5px;
+    border: 8px;
+
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+.btDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

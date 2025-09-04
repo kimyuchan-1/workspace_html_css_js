@@ -1,0 +1,131 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #E6EAFF;
+}
+
+header div {
+    margin: 20px;
+    padding: 10px;
+
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-block;
+}
+
+h1 {
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+section {
+    margin: 10px;
+    padding: 5px;
+
+    background-color: white;
+
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    
+}
+
+main ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+img {
+    margin: 7px 20px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i1 {
+    width: 120px;
+    padding: 5px;
+    margin: 7px 30px;
+
+    color: white;
+    background-color: skyblue;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+h2 {
+    margin: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    list-style: none;
+}
+
+.i2 {
+    /* margin: 5px 10px;
+    padding: 5px;
+
+    color: white;
+    background-color: skyblue;
+    border-radius: 8px;
+
+    display: inline-flex;
+    flex-wrap: wrap;
+
+    text-decoration: none; */
+    /* border-bottom: 1px solid black; */
+    margin: 2px 10px;
+    padding: 2px;
+    text-decoration: none;
+    color: darkgray;
+
+}
+
+.i1:hover, footer li:hover {
+    background-color: rgb(247, 231, 231);
+}
+
+@media (max-width:1024px) {
+
+    header,
+    main,
+    footer {
+        width: 80%;
+        padding: 20px;
+
+        background-color: #E6EAFF;
+    }
+}
