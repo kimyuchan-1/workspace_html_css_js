@@ -1,4 +1,4 @@
-main > section {
+main  section {
     height: 600px;
 
     display: flex;
@@ -28,7 +28,7 @@ footer ul {
     list-style: none;
 }
 
-button {
+input[type = button], input[type = reset]{
     padding: 10px;
     margin: 5px 15px;
 
@@ -41,13 +41,33 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+input[type = button]:hover {
     background-color: brown;
     cursor: pointer;
 }
 
 .btDiv {
+    
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#msg {
+    width : 80%;
+    height : 50px;
+    margin-top: 20px;
+    border: 1px solid skyblue;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size : large;
+    font-weight: bold;
+}
+
+#msg > span {
+    color : red;
 }

@@ -1,0 +1,19 @@
+.InputDiv {
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input[type=text] {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+input[readonly] {
+    background-color: beige;
+}
+

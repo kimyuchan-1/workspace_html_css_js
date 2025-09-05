@@ -30,12 +30,25 @@ header div {
 }
 
 h1 {
-    padding: 10px;
+    padding: 0px 10px;
     display: inline-block;
     font-weight: bold;
 }
 
-section {
+main section {
+    height: 600px;
+    margin: 0px 10px;
+    padding: 5px;
+
+    background-color: white;
+
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+}
+
+footer section {
     margin: 10px;
     padding: 5px;
 
@@ -44,20 +57,20 @@ section {
     display: block;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
-    
+   
 }
 
 main ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    /* align-items: left; */
     flex-wrap: wrap;
     list-style: none;
 }
 
 img {
-    margin: 7px 20px;
+    margin: 7px 10px;
     border-radius: 8px;
 
     display: flex;
@@ -66,16 +79,16 @@ img {
 }
 
 .i1 {
-    width: 120px;
+    /* width: 120px; */
     padding: 5px;
-    margin: 7px 30px;
+    margin: 7px 10px;
 
-    color: white;
-    background-color: skyblue;
-    border-radius: 8px;
+    color: black;
+    /* background-color: skyblue;
+    border-radius: 8px; */
 
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 
     text-decoration: none;
