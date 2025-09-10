@@ -1,0 +1,28 @@
+form {
+    width: 100%;
+}
+
+section > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+}
+
+#imgDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#txt {
+    height: 30px;
+}

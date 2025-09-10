@@ -30,6 +30,20 @@ h3 {
 
 }
 
+#resultDiv li {
+    width: 100px;
+    padding: 5px;
+    margin: 7px 30px;
+
+    color: white;
+    
+    border-radius: 8px;
+
+    display: inline-block;
+
+    text-decoration: none;
+}
+
 #resultDiv span {
     color: red;
     font-size: 30px;

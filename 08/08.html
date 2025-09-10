@@ -8,46 +8,41 @@
     <!-- 외부 스타일 -->
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="../js.css">
-    <link rel="stylesheet" href="./07.css">
+    <link rel="stylesheet" href="./08.css">
 
     <!-- Awesome 아이콘 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- 외부 자바스크립트 -->
-    <script src="./07.js"></script>
+    <script src="./08.js"></script>
 </head>
 
 <body>
     <header>
         <div><span>AI 빅데이터분석 풀스택 서비스 SW 개발자 양성과정</span></div>
-        <h1>자바스크립트 주사위 게임</h1>
+        <h1>자바스크립트 단위 환산</h1>
     </header>
     <main>
-        <form> 
+        <form>
             <section>
-                <div id="name">
-                    <h3>Computer</h3>
-                    <h3>User</h3>
-                </div>
-                <div id = "diceDiv">
-                    
-                    <img src="../img/1.png" >
-                    <img src="../img/1.png" >
-                </div>
-                
-                <div id = "btDiv"> 
-                    <button type="button">1 선택</button>
-                    <button type="button">2 선택</button>
-                    <button type="button">3 선택</button>
-                    <button type="button">4 선택</button>
-                    <button type="button">5 선택</button>
-                    <button type="button">6 선택</button>
-                </div>
-                <div id = "resultDiv"> 
-                    <li>
-                    <h3><span></span></h3>
-                    </li>
+                <div>
+                    <div id="selDiv">
+                        <select id="sel1">
+                            <option value="°C" selected>섭씨온도(°C)</option>
+                            <option value="°F">화씨온도(°F)</option>
+                        </select>
+                        <select id="sel2">
+                            <option value="°C">섭씨온도(°C)</option>
+                            <option value="°F" selected>화씨온도(°F)</option>
+                        </select>
+                    </div>
+                    <div id="numDiv">
+                        <input type="number" id="inputNum">
+                        <label for="inputNum">°C</label>
+                        <input type="number" id="outputNum" readonly>
+                        <label for="outputNum">°F</label>
+                    </div>
                 </div>
             </section>
         </form>
