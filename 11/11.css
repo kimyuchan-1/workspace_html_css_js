@@ -1,0 +1,25 @@
+
+#imgDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 400px;
+}
+
+#img {
+    height: 300px;
+    width: 300px;
+}
+
+#imgDiv > button {
+    height: 40px;
+    width: 40px;
+
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 50%;
+
+    background-color: black;
+}
